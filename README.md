@@ -31,6 +31,7 @@ Conveniently, this counting process can happen in the same function (Word::combi
 This function sets all values to true which
  - were false in the custom word (the one that can consist of more than 5 letters)
  - were true in the actual word (from the wordlist)
+
 This is the same as ORing the two words:
 false/false -> false, as the second condition fails
 true/false and true/true -> true, as the value was already true and (because the first condition fails) was not changed
