@@ -3,6 +3,12 @@
 Inspired by Matt Parker's video (https://youtu.be/_-AfhLQfb6w), this is a rather simple program written in rust that reads a word list from a txt file and then iterates over it, trying to find five words of five letters with no letters in common as fast as possible.
 
 
+# Update
+
+This is my version, but with some improvements to make it faster: https://github.com/FabianSt305/find_words_with_no_letters_in_common
+This is pretty much the same approach, but wayyy faster: https://youtu.be/947Ewgue4DM and then https://youtu.be/bSSEwbfq2Ig
+
+
 # What you should know
 
 In /src/main.rs, there is an absolute path that specifies the location of word_list.txt. Please adjust this path according to where your word list is. If the file cannot be found, access to it is denied or there is any other io error, the programm will tell you to download the word list from a url (which is copied from matt parker's video description).
